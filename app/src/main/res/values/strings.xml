@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">My Application Kotlin</string>
-    <string name="buttonLabel">Button</string>
+    <string name="buttonLabel">Нажми меня</string>
 </resources>
