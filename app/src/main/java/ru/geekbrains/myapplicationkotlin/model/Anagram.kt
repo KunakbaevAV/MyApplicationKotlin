@@ -10,7 +10,7 @@ class Anagram(val word: String) {
     val variant4 = getCharArray(4)
 
     private fun getCharArray(variant: Int): String{
-        return if (variantTrue == variant){
+        return if (variant == variantTrue){
             getRandomCharArrayTrue(word.toCharArray().toMutableList())
         }else{
             getRandomCharArrayFalse(word.toCharArray().toMutableList())
@@ -37,6 +37,10 @@ class Anagram(val word: String) {
             newArray[i] = char
         }
         return newArray.joinToString(separator = "")
+    }
+
+    fun checkVariant(variant: Int): Boolean{
+        return variant == variantTrue
     }
 }
 
