@@ -4,4 +4,14 @@
     <string name="anagram">Анаграмма</string>
     <string name="anagramInstruction">Найдите анаграмму этого слова ниже. \nАнаграмма - слово, составленное из тех же букв, но в другом порядке</string>
     <string name="variant">Вариант</string>
+    <array name="anagrams">
+        <item>Агент</item>
+        <item>Актер</item>
+        <item>Алмаз</item>
+        <item>Банка</item>
+        <item>Барин</item>
+        <item>Валет</item>
+        <item>Венец</item>
+        <item>Взрыв</item>
+    </array>
 </resources>
