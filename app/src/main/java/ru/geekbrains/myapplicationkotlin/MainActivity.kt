@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val button = findViewById<Button>(R.id.myButton)
-        button.setOnClickListener(myClickListener)
+//        val button = findViewById<Button>(R.id.myButton)
+//        button.setOnClickListener(myClickListener)
     }
 
     private fun showMessage(view: View){

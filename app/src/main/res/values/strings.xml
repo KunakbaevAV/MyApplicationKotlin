@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">My Application Kotlin</string>
+    <string name="app_name">Анаграммы</string>
     <string name="buttonLabel">Нажми меня</string>
+    <string name="anagram">Анаграмма</string>
+    <string name="anagramInstruction">Найдите анаграмму этого слова ниже. \nАнаграмма - слово, составленное из тех же букв, но в другом порядке</string>
+    <string name="variant">Вариант</string>
 </resources>
